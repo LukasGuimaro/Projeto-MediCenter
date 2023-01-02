@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.conteiner {
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logotipo {
+    display: flex;
+    align-items: center;
+}
+
