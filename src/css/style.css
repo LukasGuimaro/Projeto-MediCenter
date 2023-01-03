@@ -55,8 +55,95 @@ nav a:hover { /* Menu selecionado */
 }
 
 #banner {
+    display: flex;
+    justify-content: center;
     background-image: url("../images/img1.jpg");
     background-position: center;
     background-size: cover;
     height: 670px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.banner-headline {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner-headline h1{
+    font-size: 70px;
+    color: white;
+    text-shadow: 0px 1px 0 black;
+    margin: 0px;
+    padding: 0px;
+    max-width: 300px;
+    margin-bottom: 30px;
+}
+
+.banner-headline h2{
+    font-size: 25px;
+    color: white;
+    text-shadow: 0px 1px 0 black;
+    margin: 0px;
+    padding: 0px;
+    max-width: 350px;
+}
+
+.banner-options {
+    height: 210px;
+    display: flex;
+}
+
+.bloco1,
+.bloco2,
+.bloco3 {
+    flex: 1;
+    color: white;
+    padding: 20px;
+}
+
+.bloco1 {
+    background-color: #39aae1;
+    
+}
+
+.bloco2 {
+    background-color: #0879c7;
+}
+
+.bloco3 {
+    background-color: #2b4c99;
+}
+
+.bloco-title {
+    font-size: 21px;
+}
+
+.bloco-desc {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 16px;
+}
+
+.banner-options a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    margin-top: 10px
+}
+
+.hours {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    border-bottom: 1px solid white;
+    font-size: 14px;
+    margin-top: 10px;
 }
