@@ -147,3 +147,46 @@ nav a:hover { /* Menu selecionado */
     font-size: 14px;
     margin-top: 10px;
 }
+
+#geral {
+    display: flex;
+    justify-content: center;
+}
+
+#geral section {
+    flex: 2;
+}
+
+#geral aside {
+    flex: 1;
+}
+
+.widget-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget-title-text {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.widget-title-bar {
+    width: 50px;
+    height: 2px;
+    background-color: #39aae1;
+    margin-top: 10px;
+}
+
+.widget-body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.widget-blocks {
+    width: 150px;
+    height: 150px;
+    background-color: #39aae1;
+}
