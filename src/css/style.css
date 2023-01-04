@@ -329,4 +329,38 @@ footer .f3 {
     color: #5c5c5c;
     font-size: 12px;
     margin-right: 50px;
+    margin-bottom: 30px;
+ }
+
+ .text-desc {
+    color: #5c5c5c;
+    font-size: 12px;
+ }
+
+ .flex {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .area-description span {
+    color: white;
+ }
+
+.redes-social {
+    display: flex;
+}
+
+ .social {
+    width: 30px;
+    height: 30px;
+    background-color: #303030;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .social img {
+    width: 20px;
+    height: 20px;
  }
