@@ -96,6 +96,7 @@ nav a:hover { /* Menu selecionado */
 .banner-options {
     height: 210px;
     display: flex;
+    min-width: 230px;
 }
 
 .bloco1,
@@ -330,6 +331,7 @@ footer .f3 {
     font-size: 12px;
     margin-right: 50px;
     margin-bottom: 30px;
+    line-height: 15px;
  }
 
  .text-desc {
@@ -364,3 +366,100 @@ footer .f3 {
     width: 20px;
     height: 20px;
  }
+
+ .area-description-latest {
+    color: white;
+    font-size: 12px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    line-height: 15px;
+ }
+
+ .area-description-latest .color-description {
+    color: #42b3e5;
+ }
+
+ .area a {
+    text-decoration: none;
+ }
+
+.color-latest {
+    color: #5c5c5c;
+}
+
+.color-link {
+    color: white;
+}
+
+.menu-mobile {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin: 40px;
+}
+
+.line {
+    height: 6px;
+    background-color: #39aae1;
+}
+
+@media (max-width:770px) { 
+
+header .conteiner {
+    flex-direction: row;
+}
+
+nav ul { /*Menu na vertical*/
+    flex-direction: column;
+    display: none;
+}
+
+header { /*Tamanho do menu vertical*/
+    height: auto;
+}
+
+.menu-mobile {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.conteiner {
+    flex-direction: column;
+}
+
+.logotipo {
+    padding-left: 40px;
+}
+
+.footer-area {
+    flex-direction: column;
+}
+
+ /* 
+.banner-headline{
+    
+}
+
+.banner-headline h1 {
+    font-size: 45px;
+}
+
+.banner-headline h2 {
+    font-size: 20px;
+}
+
+.banner-options {
+    
+}*/
+
+section , aside, .footer-area, .footer-assets {
+    padding: 0px 20px;
+}
+
+/*.footer-menu {
+    flex-direction: column;
+} */
+
+}
