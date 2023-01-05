@@ -183,7 +183,6 @@ nav a:hover { /* Menu selecionado */
 .widget-body-deparnents {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
 }
 
 .widget-blocks {
@@ -402,6 +401,79 @@ footer .f3 {
 .line {
     height: 6px;
     background-color: #39aae1;
+}
+
+.area-description-info {
+    color: #5c5c5c;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.line-deparnents {
+    padding: 10px 0px;
+    border-bottom: 1px solid #adadad;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #5c5c5c;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.line-deparnents .vertical {
+    height: 15px;
+    width: 2px;
+    background-color: #2b4c99;
+}
+
+.line-deparnents .horizontal {
+    width: 15px;
+    height: 2px;
+    background-color: #2b4c99;
+    position: absolute;
+}
+
+.line-deparnents .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.line-contact {
+    padding: 10px 0px;
+    border-top: 1px solid #adadad;
+    color: #5c5c5c;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.linelast {
+    border-bottom: 1px solid #adadad;
+}
+
+.line-contact a {
+    color: #3156a3;
+    text-decoration: none;
+}
+
+.contact {
+    width: 30px;
+    height: 30px;
+    background-color: #adadad;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact img {
+    width: 20px;
+    height: 20px;
 }
 
 @media (max-width:770px) { 
