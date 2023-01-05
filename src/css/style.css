@@ -350,6 +350,7 @@ footer .f3 {
 
 .redes-social {
     display: flex;
+    margin-bottom: 20px;
 }
 
  .social {
@@ -412,6 +413,10 @@ header .conteiner {
 nav ul { /*Menu na vertical*/
     flex-direction: column;
     display: none;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    background-color: white;
 }
 
 header { /*Tamanho do menu vertical*/
@@ -437,11 +442,6 @@ header { /*Tamanho do menu vertical*/
     flex-direction: column;
 }
 
- /* 
-.banner-headline{
-    
-}
-
 .banner-headline h1 {
     font-size: 45px;
 }
@@ -450,16 +450,22 @@ header { /*Tamanho do menu vertical*/
     font-size: 20px;
 }
 
-.banner-options {
-    
-}*/
-
 section , aside, .footer-area, .footer-assets {
     padding: 0px 20px;
 }
 
-/*.footer-menu {
-    flex-direction: column;
-} */
+.banner-options {
+    /* flex-direction: column; */
+}
 
+}
+
+@media (max-width:650px) {
+    .banner-options {
+        flex-direction: column;
+    }
+
+    .banner-options .bloco1, .bloco2 {
+        display: none;
+    }
 }
