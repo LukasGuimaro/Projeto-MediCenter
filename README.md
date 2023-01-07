@@ -23,7 +23,7 @@
 - CSS3
 - Javascript
 
-## 👨‍🎓 Feito por:
+## 👾 Feito por:
 
 <table>
   <tr>
